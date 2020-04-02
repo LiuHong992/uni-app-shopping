@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "banners": "/components/index/banner",
+    "commonnav": "/components/common/commonnav",
+    "parametermodel": "/components/gooddetail/parametermodel",
+    "u-parse": "/components/jyf-parser/jyf-parser",
+    "problemmodel": "/components/gooddetail/problemmodel",
+    "commongood": "/components/common/commongood",
+    "goods-nav": "/components/gooddetail/goodsnav"
+  }
+}

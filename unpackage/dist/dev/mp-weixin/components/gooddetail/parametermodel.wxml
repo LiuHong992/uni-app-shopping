@@ -1,0 +1,1 @@
+<view class="param-wrapper w-100 data-v-70597d41"><view class="param-content fl data-v-70597d41"><view class="param-name f-s-14 data-v-70597d41">{{''+paramObj.name+''}}</view><view class="param-value t-over f-s-15 data-v-70597d41">{{''+paramObj.value+''}}</view></view></view>

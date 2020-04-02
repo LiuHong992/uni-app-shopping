@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.cart-wrapper.data-v-5c5510ba {
+  height: 100vh;
+  background-color: #EEEEEE;
+}
+.cart-wrapper .carts-wrapper.data-v-5c5510ba {
+    height: 100%;
+}
+.cart-wrapper .carts-wrapper .carts-real-wrapper .swipper-model.data-v-5c5510ba {
+      padding: 20rpx 30rpx 80rpx;
+}
+.cart-wrapper .carts-wrapper .carts-real-wrapper .swipper-model .checked.data-v-5c5510ba {
+        width: 10%;
+}
+.cart-wrapper .carts-wrapper .carts-real-wrapper .swipper-model .carts-model.data-v-5c5510ba {
+        width: 90%;
+}
+.cart-wrapper .carts-wrapper .settlement-wrapper.data-v-5c5510ba {
+      position: -webkit-sticky;
+      position: sticky;
+      width: 100%;
+      bottom: 0;
+}
+.cart-wrapper .carts-wrapper .settlement-wrapper .settlement-content.data-v-5c5510ba {
+        height: 120rpx;
+}
+.cart-wrapper .carts-wrapper .settlement-wrapper .settlement-content .left-box.data-v-5c5510ba {
+          width: 65%;
+          height: 100%;
+          padding: 0 30rpx;
+          background-color: #fff;
+}
+.cart-wrapper .carts-wrapper .settlement-wrapper .settlement-content .left-box .allprices.data-v-5c5510ba {
+            color: #B4282D;
+}
+.cart-wrapper .carts-wrapper .settlement-wrapper .settlement-content .settlement-btn-wrapper.data-v-5c5510ba {
+          width: 35%;
+          background-color: #B4282D;
+          color: #fff;
+          line-height: 120rpx;
+}
+.cart-wrapper .no-carts-wrapper .none-text.data-v-5c5510ba {
+    padding-top: 60rpx;
+}
+.cart-wrapper .no-carts-wrapper .goto-index .gotobtn.data-v-5c5510ba {
+    padding: 10rpx 20rpx;
+    color: #fff;
+    background-image: -webkit-linear-gradient(left, #AE81FF, #66D9EF);
+    background-image: linear-gradient(to right, #AE81FF, #66D9EF);
+}
+

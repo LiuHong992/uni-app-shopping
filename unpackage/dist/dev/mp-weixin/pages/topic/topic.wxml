@@ -1,0 +1,1 @@
+<view class="topics data-v-a604634a"><block wx:for="{{topicArr}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="model-item m-b-20 data-v-a604634a"><nicemodel vue-id="{{'14d0dce0-1-'+index}}" nicemodel="{{item}}" topciNum="{{2}}" class="data-v-a604634a" bind:__l="__l"></nicemodel></view></block></view>

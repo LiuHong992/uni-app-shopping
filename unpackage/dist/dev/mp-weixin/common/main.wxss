@@ -1,0 +1,599 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+/* 盒子样式 */
+/* 怪异盒模型 */
+.b-box {
+	box-sizing: border-box;
+}
+/* 盒子变为行内块级元素 */
+.i-block {
+	display: inline-block;
+}
+/* 盒子相对定位 */
+.p-r {
+	position: relative;
+}
+/* 盒子绝对定位 */
+.p-a {
+	position: absolute;
+}
+/* 盒子吸顶 */
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+/* 盒子层级 */
+/* 普通盒子层级(10) */
+.z-10 {
+	z-index: 10;
+}
+/* 99层级 */
+.z-99 {
+	z-index: 99;
+}
+/* 999层级 */
+.z-999 {
+	z-index: 999;
+}
+/* 9999层级（基本等同于最高层级） */
+.z-max {
+	z-index: 9999;
+}
+/* 弹性盒子 */
+.fl {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+/* 盒子超出部分自动换行 */
+.fl-w {
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+/* 子盒子位于父盒子头部 */
+.f-start {
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+}
+/* 子盒子位于父盒子尾部 */
+.f-end {
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	        justify-content: flex-end;
+}
+/* 子盒子位于父盒子中心 */
+.f-center {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+/* 两个子盒子以上子盒子分别位于父盒子两边且两边不留白 */
+.s-b {
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+/* 两个子盒子以上子盒子分别位于父盒子两边且两边留白 */
+.s-a {
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+/* 盒子垂直居中 */
+.a-c {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+/* 盒子水平居中 */
+.m-auto {
+	margin: 0 auto;
+}
+/* 弹性盒子竖直分布 */
+.f-column {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+/* 弹性盒子中子盒子等分 */
+.f-1 {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+/* 盒子宽度100% */
+.w-100 {
+	width: 100%;
+}
+/* 盒子宽度90% */
+.w-90 {
+	width: 90%;
+}
+/* 盒子宽度50% */
+.w-50 {
+	width: 50%;
+}
+/* 盒子高度为20px */
+.h-20 {
+	height: 40rpx;
+}
+/* 盒子高度为30px */
+.h-30 {
+	height: 60rpx;
+}
+/* 盒子高度为40px */
+.h-40 {
+	height: 80rpx;
+}
+/* 外边距10px */
+.m-10 {
+	margin: 20rpx;
+}
+/* 外边距15px */
+.m-15 {
+	margin: 30rpx;
+}
+/* 外边距20px */
+.m-20 {
+	margin: 40rpx;
+}
+/* 左边距10px */
+.m-l-5 {
+	margin-left: 10rpx;
+}
+/* 右边距10px */
+.m-r-5 {
+	margin-right: 10rpx;
+}
+/* 下边距10px */
+.m-b-5 {
+	margin-bottom: 10rpx;
+}
+/* 上边距10px */
+.m-t-5 {
+	margin-top: 10rpx;
+}
+/* 左边距10px */
+.m-l-10 {
+	margin-left: 20rpx;
+}
+/* 右边距10px */
+.m-r-10 {
+	margin-right: 20rpx;
+}
+/* 下边距10px */
+.m-b-10 {
+	margin-bottom: 20rpx;
+}
+/* 上边距10px */
+.m-t-10 {
+	margin-top: 20rpx;
+}
+/* 左边距15px */
+.m-l-15 {
+	margin-left: 30rpx;
+}
+/* 右边距15px */
+.m-r-15 {
+	margin-right: 30rpx;
+}
+/* 下边距15px */
+.m-b-15 {
+	margin-bottom: 30rpx;
+}
+/* 上边距15px */
+.m-t-15 {
+	margin-top: 30rpx;
+}
+/* 左边距20px */
+.m-l-20 {
+	margin-left: 40rpx;
+}
+/* 右边距20px */
+.m-r-20 {
+	margin-right: 40rpx;
+}
+/* 下边距20px */
+.m-b-20 {
+	margin-bottom: 40rpx;
+}
+/* 上边距20px */
+.m-t-20 {
+	margin-top: 40rpx;
+}
+/* 上边距30px */
+.m-t-30 {
+	margin-top: 60rpx;
+}
+/* 内边距5px */
+.p-5 {
+	padding: 10rpx;
+}
+/* 内边距10px */
+.p-10 {
+	padding: 20rpx;
+}
+/* 内边距15px */
+.p-15 {
+	padding: 30rpx;
+}
+/* 内边距20px */
+.p-20 {
+	padding: 40rpx;
+}
+/* 图片样式 */
+/* 普通图片 */
+.img {
+	width: 100%;
+	height: 100%;
+}
+/* 圆形图片 */
+.i-circle {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+/* 盒子边框 */
+/* 黑色盒子边框 */
+.br-black {
+	border: 2rpx solid black;
+}
+/* 灰色盒子边框 */
+.br-gray {
+	border: 2rpx solid #ccc;
+}
+/* 向上的三角形 */
+.t-top {
+	width: 0;
+	height: 0;
+	border-left: 4rpx solid transparent;
+	border-right: 4rpx solid transparent;
+	border-bottom: 8rpx solid #ccc;
+}
+/* 向下的三角形 */
+.t-bottom {
+	width: 0;
+	height: 0;
+	border-left: 4rpx solid transparent;
+	border-right: 4rpx solid transparent;
+	border-top: 8rpx solid #ccc;
+}
+/* 向左的三角形 */
+.t-left {
+	width: 0;
+	height: 0;
+	border-top: 4rpx solid transparent;
+	border-right: 8rpx solid #ccc;
+	border-bottom: 4rpx solid transparent;
+}
+/* 向右的三角形 */
+.t-right {
+	width: 0;
+	height: 0;
+	border-top: 4rpx solid transparent;
+	border-left: 8rpx solid #ccc;
+	border-bottom: 4rpx solid transparent;
+}
+/* 左上的三角形 */
+.t-top-left {
+	width: 0;
+	height: 0;
+	border-top: 8rpx solid #ccc;
+	border-right: 8rpx solid transparent;
+}
+/* 右上的三角形 */
+.t-top-right {
+	width: 0;
+	height: 0;
+	border-top: 8rpx solid #ccc;
+	border-left: 8rpx solid transparent;
+}
+/* 左下的三角形 */
+.t-bottom-left {
+	width: 0;
+	height: 0;
+	border-bottom: 8rpx solid #ccc;
+	border-right: 8rpx solid transparent;
+}
+/* 右下的三角形 */
+.t-bottom-right {
+	width: 0;
+	height: 0;
+	border-bottom: 8rpx solid #ccc;
+	border-left: 8rpx solid transparent;
+}
+/* 字体样式 */
+/* 字体超出部分显示省略号 */
+.t-over {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+/* 首行缩进20px */
+.t-i-20 {
+	text-indent: 40rpx;
+}
+/* 首行缩进30px */
+.t-i-30 {
+	text-indent: 60rpx;
+}
+/* 字体加粗 */
+.f-w {
+	font-weight: 700;
+}
+/* 字体左对齐 */
+.t-left {
+	text-align: left;
+}
+/* 文字居中 */
+.t-center {
+	text-align: center;
+}
+/* 文字右对齐 */
+.t-right {
+	text-align: right;
+}
+/* 12px字体 */
+.f-s-12 {
+	font-size: 24rpx;
+}
+/* 13px字体 */
+.f-s-13 {
+	font-size: 26rpx;
+}
+/* 14px字体 */
+.f-s-14 {
+	font-size: 28rpx;
+}
+/* 15px字体 */
+.f-s-15 {
+	font-size: 30rpx;
+}
+/* 18px字体 */
+.f-s-18 {
+	font-size: 36rpx;
+}
+/* 20px字体 */
+.f-s-20 {
+	font-size: 40rpx;
+}
+/* 22px字体 */
+.f-s-22 {
+	font-size: 44rpx;
+}
+/* 文字超过两排显示省略号 */
+.t-over-2 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+/* 文字超过三排显示省略号 */
+.t-over-3 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+/* 文字超过四排显示省略号 */
+.t-over-4 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+}
+/* 红色背景色 */
+.red-bg {
+	background-color: #CB1C36;
+}
+/* #CB1C36颜色字体（适用于本书城项目） */
+.red-text {
+	color: #CB1C36;
+}
+/* #B8B8B8颜色字体(适用于本书城项目) */
+.gray-text {
+	color: #B8B8B8;
+}
+/* 白色字体 */
+.wh-text {
+	color: #ffffff !important;
+}
+/* 文字行高 */
+/* 行高20px */
+.l-h-20 {
+	line-height: 40rpx;
+}
+/* 行高22px */
+.l-h-22 {
+	line-height: 44rpx;
+}
+/* 行高24px */
+.l-h-24 {
+	line-height: 48rpx;
+}
+/* 行高26px */
+.l-h-26 {
+	line-height: 52rpx;
+}
+/* 行高28px */
+.l-h-28 {
+	line-height: 56rpx;
+}
+/* 行高30px */
+.l-h-30 {
+	line-height: 60rpx;
+}
+/* 行高40px */
+.l-h-40 {
+	line-height: 80rpx;
+}
+/* 竖向scroll-view */
+.scroll-view-container {
+	height: 100vh;
+}
+/* 横向scroll-view */
+.scroll-view-X {
+	width: 100vw;
+}
+/* 隐藏scroll-view的滚动条 */
+::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+	color: transparent;
+}
+/* 本项目一些公用css(网易云音乐小程序) */
+/* 公用的图片(处理后的) */
+.common-image {
+	min-width: 140rpx;
+	height: 140rpx;
+	border-radius: 10rpx;
+}
+.common-img {
+	border-radius: 10rpx;
+}
+/* 圆形图片 */
+.circle-image {
+	min-width: 140rpx;
+	height: 140rpx;
+	border-radius: 50%;
+}
+/* 亮灰色字体 */
+.light-gray {
+	color: rgb(133, 130, 130);
+}
+.album-pub {
+	height: 120rpx;
+	margin: auto 30rpx;
+}
+/* 背景虚化 */
+.bgs {
+	z-index: -1;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-filter: blur(40rpx);
+	        filter: blur(40rpx);
+}
+

@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "index-header": "/components/index/indexheader",
+    "banners": "/components/index/banner",
+    "navbar": "/components/index/navbar",
+    "fmodel": "/components/index/factorymodel",
+    "newrecommend": "/components/index/newrecommend",
+    "nicemodel": "/components/common/nicemodel",
+    "moremodel": "/components/index/moremodel"
+  }
+}

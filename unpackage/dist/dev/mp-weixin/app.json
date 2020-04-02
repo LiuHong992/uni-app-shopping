@@ -1,0 +1,76 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/topic/topic",
+    "pages/classfy/classfy",
+    "pages/carts/carts",
+    "pages/my/my",
+    "pages/search/search",
+    "pages/navdetail/navdetail",
+    "pages/goodsdetail/goodsdetail",
+    "pages/classfydetail/classfydetail",
+    "pages/newrec/newrec",
+    "pages/category/category",
+    "pages/brand/brand",
+    "pages/topicdetail/topcidetail",
+    "pages/orderdetail/orderdetail",
+    "pages/collect/collect",
+    "pages/history/history",
+    "pages/addresslist/addresslist",
+    "pages/feedback/feedback",
+    "pages/addressedit/addressedit",
+    "pages/settlement/settlement"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "品韵易购",
+    "navigationBarBackgroundColor": "#B4282D",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#B4282D",
+    "backgroundColor": "#FAFAFA",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-active.png"
+      },
+      {
+        "pagePath": "pages/topic/topic",
+        "text": "专题",
+        "iconPath": "static/topic.png",
+        "selectedIconPath": "static/topic-active.png"
+      },
+      {
+        "pagePath": "pages/classfy/classfy",
+        "text": "分类",
+        "iconPath": "static/classfy.png",
+        "selectedIconPath": "static/classfy-active.png"
+      },
+      {
+        "pagePath": "pages/carts/carts",
+        "text": "购物车",
+        "iconPath": "static/carts.png",
+        "selectedIconPath": "static/carts-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/my-active.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap68.json"
+}

@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-popup": "/components/uni-ui/uni-popup/uni-popup",
+    "uni-number-box": "/components/uni-ui/uni-number-box/uni-number-box"
+  }
+}

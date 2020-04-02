@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "uni-icons": "/components/uni-ui/uni-icons/uni-icons",
+    "jyf-parser": "/components/jyf-parser/jyf-parser",
+    "nicemodel": "/components/common/nicemodel"
+  }
+}

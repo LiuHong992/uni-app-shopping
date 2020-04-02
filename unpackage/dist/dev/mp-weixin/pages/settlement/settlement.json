@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "addressmodel": "/components/address/addressmodel",
+    "cartsmodel": "/components/carts/cartsmodel"
+  }
+}
